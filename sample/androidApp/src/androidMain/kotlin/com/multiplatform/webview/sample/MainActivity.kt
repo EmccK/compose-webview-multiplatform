@@ -1,4 +1,4 @@
-package com.multiplatform.webview
+package com.multiplatform.webview.sample
 
 import android.graphics.Color
 import android.os.Bundle

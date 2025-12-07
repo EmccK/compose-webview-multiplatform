@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__auggie-mcp__codebase-retrieval",
+      "Bash(./gradlew :sample:androidApp:dependencies --configuration releaseRuntimeClasspath)",
+      "Bash(./gradlew :sample:androidApp:processDebugMainManifest:*)",
+      "Bash(./gradlew :sample:androidApp:assembleDebug:*)",
+      "Bash(./gradlew clean:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
